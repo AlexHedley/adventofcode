@@ -1,0 +1,40 @@
+body {
+    /* background-color: red; */
+    background-color: green;
+}
+
+h1 {
+    /* color: green; */
+    color: red;
+}
+
+.card {
+    background-color: red;
+    /* background-color: green; */
+}
+
+.card-title {
+    /* color: red; */
+    color: green;
+    -webkit-text-fill-color: green; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.card-text {
+    /* color: red; */
+    /* color: green; */
+    color: black;
+    /* -webkit-text-fill-color: green; */ /* Will override color (regardless of order) */
+    /* -webkit-text-stroke-width: 0.5px; */
+    /* -webkit-text-stroke-color: black; */
+}
+
+.footer {
+    background-color: red;
+}
+
+/* Links */
+a:link, a:visited, a:hover, a:active {
+    color: green;
+}

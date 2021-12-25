@@ -1,0 +1,19 @@
+{
+    "years": [
+        {
+            "id": 1,
+            "name": "2021",
+            "startDate": "2021-12-01",
+            "endDate": "2021-12-25",
+            "description": "Submarine",
+            "site": "https://AlexHedley.github.io/adventofcode2021",
+            "code": "https://github.com/AlexHedley/adventofcode2021",
+            "aoc_site": "https://adventofcode.com/2021",
+            "stars": {
+                "silver": 5,
+                "gold": 4
+            }
+            
+        }
+    ]
+}
