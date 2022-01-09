@@ -74,8 +74,9 @@
                                 <p class="card-text">{{year.description}}</p>
                                 <p class="card-text">{{year.startDate | date:'d MMM yyyy'}} - {{year.endDate | date:'d MMM yyyy'}}</p>
                                 <p class="card-text">
-                                    <span class="badge badge-secondary" style="margin-left:5px;">{{year.stars.silver}}</span>
-                                    <span class="badge badge-warning" style="margin-left:5px;">{{year.stars.gold}}</span>
+                                    <span class="badge badge-secondary" style="margin-left:5px;" title="Silver">{{year.stars.silver}}</span>
+                                    <span class="badge badge-warning" style="margin-left:5px;" title="Gold">{{year.stars.gold}}</span>
+                                    <span ng-if="year.supporter == true" class="badge badge-warning" style="margin-left:5px;" title="Supporter">++</span>
                                 </p>
 
                                 <div class="btn-group">
