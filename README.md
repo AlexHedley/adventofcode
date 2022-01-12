@@ -10,7 +10,7 @@
 | [2018](https://adventofcode.com/2018/) | [.](https://github.com/AlexHedley/adventofcode2018) | 0 | 0 |
 | [2017](https://adventofcode.com/2017/) | [.](https://github.com/AlexHedley/adventofcode2017) | 0 | 0 |
 | [2016](https://adventofcode.com/2016/) | [.](https://github.com/AlexHedley/adventofcode2016) | 0 | 0 |
-| [2015](https://adventofcode.com/2015/) | [.](https://github.com/AlexHedley/adventofcode2015) | 0 | 0 |
+| [2015](https://adventofcode.com/2015/) | [.](https://github.com/AlexHedley/adventofcode2015) | 0 | 1 |
 
 ## Site
 

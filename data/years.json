@@ -101,9 +101,9 @@
             "aoc_site": "https://adventofcode.com/2015",
             "stars": {
                 "silver": 0,
-                "gold": 0
+                "gold": 1
             },
-            "supporter": false
+            "supporter": true
         }
     ]
 }
