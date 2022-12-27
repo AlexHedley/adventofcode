@@ -5,13 +5,13 @@
       "name": "2022",
       "startDate": "2022-12-01",
       "endDate": "2022-12-25",
-      "description": "",
+      "description": "Elves' expedition",
       "site": "https://AlexHedley.github.io/adventofcode2022",
       "code": "https://github.com/AlexHedley/adventofcode2022",
       "aoc_site": "https://adventofcode.com/2022",
       "stars": {
-        "silver": 0,
-        "gold": 4
+        "silver": 1,
+        "gold": 7
       },
       "supporter": true
     },
