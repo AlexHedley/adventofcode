@@ -12,19 +12,21 @@
     <meta name="keywords" content="advent,code,aoc" />
     <meta name="author" content="Alex Hedley" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/sticky-footer.css" />
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/vendor/sticky-footer.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" href="css/jquery-ui.min.css"> -->
-    <link rel="stylesheet" href="css/jquery-ui.1.12.1.min.css" />
-    <link rel="stylesheet" href="css/pivot.min.css" />
+    <!-- <link rel="stylesheet" href="css/vendor/jquery-ui.min.css"> -->
+    <link rel="stylesheet" href="css/vendor/jquery-ui.1.12.1.min.css" />
+    <link rel="stylesheet" href="css/vendor/pivot.min.css" />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.13.0/pivot.min.css"> -->
+    
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/stats.css" />
 
     <link rel="shortcut icon" href="favicon.ico" />
     <!-- <link rel="shortcut icon" href="images/favicon.png"/> -->
@@ -73,111 +75,178 @@
 
       <div ng-controller="myController">
         <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="">
-              <table id="years">
-                <thead>
-                  <tr>
-                    <th>Year</th>
-                    <th>Description</th>
-                    <!-- <th>Dates</th> -->
-                    <th>Supporter</th>
-                    <th>Silver</th>
-                    <th>Gold ⭐</th>
-                    <th>Total</th>
-                    <!-- <th>Site</th> -->
-                    <!-- <th>Repo</th> -->
-                    <!-- <th>AoC Site</th> -->
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr ng-repeat="year in years | filter:searchText">
-                    <td>{{year.name}}</td>
-                    <td>{{year.description}}</td>
-                    <!-- <td>{{year.startDate | date:'d MMM yyyy'}} - {{year.endDate | date:'d MMM yyyy'}}</td> -->
-                    <td>{{year.supporter | supporter}}</td>
-                    <td>{{year.stars.silver}}</td>
-                    <td>{{year.stars.gold}}</td>
-                    <td>{{year.stars.silver + (year.stars.gold * 2)}}</td>
-                    <!-- <td>{{year.site}}</td> -->
-                    <!-- <td>{{year.code}}</td> -->
-                    <!-- <td>{{year.aoc_site}}</td> -->
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
 
-          <br />
+          <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item active" role="presentation">
+              <button class="nav-link active" id="years-tab" data-bs-toggle="tab" data-bs-target="#years"
+                      type="button" role="tab" aria-controls="years" aria-selected="true">
+                Years
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="stats-tab" data-bs-toggle="tab" data-bs-target="#stats"
+                      type="button" role="tab" aria-controls="stats" aria-selected="true">
+                Stats
+              </button>
+            </li>
+          </ul> -->
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs">
+            <li class='nav-item'>
+              <a class='nav-link active' data-toggle='tab' href='#years'>Years</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' data-toggle='tab' href='#stats'>Stats</a>
+            </li>
+          </ul>
 
-          <div class="row">
-            <div
-              ng-repeat="year in years | filter:searchText"
-              class="col-md-4"
-              style="margin-bottom: 50px"
-            >
-              <div class="card" style="width: 18rem">
-                <div class="card-body">
-                  <h5 class="card-title">{{year.name}}</h5>
-                  <p class="card-text">{{year.description}}</p>
-                  <p class="card-text">
-                    {{year.startDate | date:'d MMM yyyy'}} - {{year.endDate |
-                    date:'d MMM yyyy'}}
-                  </p>
-                  <p class="card-text">
-                    <span
-                      class="badge badge-secondary"
-                      style="margin-left: 5px"
-                      title="Silver"
-                      >{{year.stars.silver}}</span
-                    >
-                    <span
-                      class="badge badge-warning"
-                      style="margin-left: 5px"
-                      title="Gold"
-                      >{{year.stars.gold}}</span
-                    >
-                    <span
-                      ng-if="year.supporter == true"
-                      class="badge badge-warning"
-                      style="margin-left: 5px"
-                      title="Supporter"
-                      >++</span
-                    >
-                  </p>
+          <!-- Tab panes -->
+          <div class="tab-content">
+          <!-- <div class="tab-content" id="myTabContent"> -->
 
-                  <div class="btn-group">
-                    <button
-                      ng-click="OpenRepository(year)"
-                      type="button"
-                      class="btn btn-sm btn-success card-button"
-                    >
-                      <i class="fab fa-github"></i> View Code
-                    </button>
-                    <!-- <button ng-click="OpenRepositoryHomepage(year)" type="button" class="btn btn-sm btn-outline-success card-button">
-                                        <i class="fas fa-globe-europe"></i>View Site
-                                    </button> -->
-                  </div>
+            <!-- Years -->
+            <div class='tab-pane container fade in show active' id='years'>
+            <!-- <div class="tab-pane fade show active" id="years" role="tabpanel" aria-labelledby="years-tab"> -->
+              <h2>Years</h2>
+              <br />
 
-                  <div class="btn-group">
-                    <button
-                      ng-click="OpenAoCHomepage(year)"
-                      type="button"
-                      class="btn btn-sm btn-success card-button"
-                    >
-                      <i class="fas fa-globe-europe"></i>View Site
-                    </button>
-                  </div>
-
-                  <!-- <div class="card-topics-container">
-                                    <div ng-repeat="topic in year.topics">
-                                        <span class="badge badge-pill card-pill-primary" style="margin-left:5px;">{{topic}}</span>
-                                    </div>
-                                </div> -->
+              <div class="row justify-content-md-center">
+                <div class="">
+                  <table id="years">
+                    <thead>
+                      <tr>
+                        <th>Year</th>
+                        <th>Description</th>
+                        <!-- <th>Dates</th> -->
+                        <th>Supporter</th>
+                        <th>Silver</th>
+                        <th>Gold ⭐</th>
+                        <th>Total</th>
+                        <!-- <th>Site</th> -->
+                        <!-- <th>Repo</th> -->
+                        <!-- <th>AoC Site</th> -->
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr ng-repeat="year in years | filter:searchText">
+                        <td>{{year.name}}</td>
+                        <td>{{year.description}}</td>
+                        <!-- <td>{{year.startDate | date:'d MMM yyyy'}} - {{year.endDate | date:'d MMM yyyy'}}</td> -->
+                        <td>{{year.supporter | supporter}}</td>
+                        <td>{{year.stars.silver}}</td>
+                        <td>{{year.stars.gold}}</td>
+                        <td>{{year.stars.silver + (year.stars.gold * 2)}}</td>
+                        <!-- <td>{{year.site}}</td> -->
+                        <!-- <td>{{year.code}}</td> -->
+                        <!-- <td>{{year.aoc_site}}</td> -->
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
+
+              <br />
+              <br />
+
+              <div class="row">
+                <div
+                  ng-repeat="year in years | filter:searchText"
+                  class="col-md-4"
+                  style="margin-bottom: 50px"
+                >
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <h5 class="card-title">{{year.name}}</h5>
+                      <p class="card-text">{{year.description}}</p>
+                      <p class="card-text">
+                        {{year.startDate | date:'d MMM yyyy'}} - {{year.endDate |
+                        date:'d MMM yyyy'}}
+                      </p>
+                      <p class="card-text">
+                        <span
+                          class="badge badge-secondary"
+                          style="margin-left: 5px"
+                          title="Silver"
+                          >{{year.stars.silver}}</span
+                        >
+                        <span
+                          class="badge badge-warning"
+                          style="margin-left: 5px"
+                          title="Gold"
+                          >{{year.stars.gold}}</span
+                        >
+                        <span
+                          ng-if="year.supporter == true"
+                          class="badge badge-warning"
+                          style="margin-left: 5px"
+                          title="Supporter"
+                          >++</span
+                        >
+                      </p>
+    
+                      <div class="btn-group">
+                        <button
+                          ng-click="OpenRepository(year)"
+                          type="button"
+                          class="btn btn-sm btn-success card-button"
+                        >
+                          <i class="fab fa-github"></i> View Code
+                        </button>
+                        <!-- <button ng-click="OpenRepositoryHomepage(year)" type="button" class="btn btn-sm btn-outline-success card-button">
+                                            <i class="fas fa-globe-europe"></i>View Site
+                                        </button> -->
+                      </div>
+    
+                      <div class="btn-group">
+                        <button
+                          ng-click="OpenAoCHomepage(year)"
+                          type="button"
+                          class="btn btn-sm btn-success card-button"
+                        >
+                          <i class="fas fa-globe-europe"></i>View Site
+                        </button>
+                      </div>
+    
+                      <!-- <div class="card-topics-container">
+                                        <div ng-repeat="topic in year.topics">
+                                            <span class="badge badge-pill card-pill-primary" style="margin-left:5px;">{{topic}}</span>
+                                        </div>
+                                    </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <!-- </div> -->
             </div>
+
+            <!-- Stats -->
+            <div class='tab-pane container fade' id='stats'>
+            <!-- <div class="tab-pane fade show" id="stats" role="tabpanel" aria-labelledby="stats-tab"> -->
+              <h2>Stats</h2>
+              <br />
+              <p style="color: yellow;">WIP: add actual times...</p>
+
+              <div class="row">
+                <div class="col">
+                  <div id="stats-container"></div>
+                </div>
+              </div>
+
+              <br />
+
+              <div class="row">
+                <div class="col">
+                  <p>Thanks Jeroen Heijmans - <a href="https://codepen.io/jeroenheijmans/pen/GPomRd" target="_blank" style="color: red;">Advent of Code Personal Stats Comparison</a></p>
+                </div>
+              </div>
+
+            <!-- </div> -->
+            </div>
+
+          <!-- </div> -->
           </div>
+
         </div>
       </div>
     </main>
@@ -194,20 +263,23 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/vendor/jquery-3.3.1.min.js"></script>
     <script>
       window.jQuery ||
-        document.write('<script src="js/jquery-slim.min.js"><\/script>');
+        document.write('<script src="js/vendor/jquery-slim.min.js"><\/script>');
     </script>
-    <script src="js/jquery-ui.min.js"></script>
-    <!-- <script src="js/jquery-ui.1.12.1.min.js"></script> -->
-    <!-- <script src="js/popper.min.js"></script> -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/jquery.pretty-text-diff.min.js"></script> -->
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <!-- <script src="js/vendor/jquery-ui.1.12.1.min.js"></script> -->
+    <!-- <script src="js/vendor/popper.min.js"></script> -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!-- <script src="js/vendor/jquery.pretty-text-diff.min.js"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script> -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script> -->
-    <script src="js/angular.min.js"></script>
-    <!-- <script src="js/angular-filter.js"></script> -->
+    <script src="js/vendor/angular.min.js"></script>
+    <!-- <script src="js/vendor/angular-filter.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    
     <script src="js/app.js"></script>
+    <script src="js/stats.js"></script>
   </body>
 </html>

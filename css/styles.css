@@ -38,3 +38,8 @@ h1 {
 a:link, a:visited, a:hover, a:active {
     color: green;
 }
+
+/* TODO: Fix this */
+.nav-item {
+    background-color: red;
+}
