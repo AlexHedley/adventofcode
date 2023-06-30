@@ -6,36 +6,55 @@
 // Prefix with each year
 const data = `
 2022
-Day       Time  Rank  Score       Time  Rank  Score
-  1   00:54:22   418      0   02:45:59  1072      0
+Day       Time    Rank  Score       Time    Rank  Score
+ 11       >24h   69699      0          -       -      -
+ 10   06:47:15   28950      0          -       -      -
+  8   05:21:47   30878      0   12:22:51   43545      0
+  6   06:20:07   53737      0   06:38:10   53559      0
+  5   09:17:42   51283      0   10:08:05   52137      0
+  4   10:42:19   69870      0   11:02:16   68662      0
+  3   05:21:29   40036      0   10:30:12   60180      0
+  2   18:10:58  112679      0   19:10:41  108373      0
+  1   05:44:27   44780      0   05:59:38   43219      0
 
 2021
-Day       Time  Rank  Score       Time  Rank  Score
-  1   01:58:59  1883      0   03:07:04  1668      0
+Day       Time    Rank  Score       Time    Rank  Score
+ 25   02:46:50    3856      0          -       -      -
+ 22   11:16:06   12255      0          -       -      -
+ 21   08:40:36   13627      0          -       -      -
+  9       >24h   68364      0          -       -      -
+  8       >24h   74082      0          -       -      -
+  7   10:36:35   44325      0   10:50:18   42232      0
+  6       >24h   60407      0          -       -      -
+  4       >24h   99236      0       >24h   93933      0
+  3       >24h  108607      0          -       -      -
+  2       >24h  129483      0       >24h  125148      0
+  1       >24h  140178      0       >24h  143030      0
 
 2020
 Day       Time  Rank  Score       Time  Rank  Score
-  1   00:35:28  1490      0   01:34:41  1638      0
 
 2019
 Day       Time  Rank  Score       Time  Rank  Score
-  1   00:59:00  1129      0   01:06:23  1228      0
 
 2018
 Day       Time  Rank  Score       Time  Rank  Score
-  1   00:58:46  1105      0   01:27:19   775      0
 
 2017
 Day       Time  Rank  Score       Time  Rank  Score
-  1   00:25:34   794      0   00:30:36   584      0
 
 2016
 Day       Time  Rank  Score       Time  Rank  Score
-  1   00:20:10   468      0   01:51:39  1254      0
 
 2015
 Day       Time  Rank  Score       Time  Rank  Score
-  1   02:10:54  2207      0   02:39:06  2188      0
+Day       Time   Rank  Score       Time   Rank  Score
+  6       >24h  25466      0       >24h  24320      0
+  5       >24h  31962      0          -      -      -
+  4       >24h  32781      0          -      -      -
+  3       >24h  39200      0       >24h  35913      0
+  2       >24h  48016      0       >24h  43084      0
+  1       >24h  75511      0       >24h  61052      0
 `;
 
 const lines = data
