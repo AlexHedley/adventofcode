@@ -9,6 +9,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2022",
       "code": "https://github.com/AlexHedley/adventofcode2022",
       "aoc_site": "https://adventofcode.com/2022",
+      "image": "images/2022.svg",
       "stars": {
         "silver": 1,
         "gold": 7
@@ -24,6 +25,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2021",
       "code": "https://github.com/AlexHedley/adventofcode2021",
       "aoc_site": "https://adventofcode.com/2021",
+      "image": "images/2021.svg",
       "stars": {
         "silver": 7,
         "gold": 4
@@ -39,6 +41,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2020",
       "code": "https://github.com/AlexHedley/adventofcode2020",
       "aoc_site": "https://adventofcode.com/2020",
+      "image": "images/2020.svg",
       "stars": {
         "silver": 0,
         "gold": 0
@@ -54,6 +57,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2019",
       "code": "https://github.com/AlexHedley/adventofcode2019",
       "aoc_site": "https://adventofcode.com/2019",
+      "image": "images/2019.svg",
       "stars": {
         "silver": 0,
         "gold": 0
@@ -69,6 +73,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2018",
       "code": "https://github.com/AlexHedley/adventofcode2018",
       "aoc_site": "https://adventofcode.com/2018",
+      "image": "images/2018.svg",
       "stars": {
         "silver": 0,
         "gold": 0
@@ -84,6 +89,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2017",
       "code": "https://github.com/AlexHedley/adventofcode2017",
       "aoc_site": "https://adventofcode.com/2017",
+      "image": "images/2017.svg",
       "stars": {
         "silver": 0,
         "gold": 0
@@ -99,6 +105,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2016",
       "code": "https://github.com/AlexHedley/adventofcode2016",
       "aoc_site": "https://adventofcode.com/2016",
+      "image": "images/2016.svg",
       "stars": {
         "silver": 0,
         "gold": 0
@@ -114,6 +121,7 @@
       "site": "https://AlexHedley.github.io/adventofcode2015",
       "code": "https://github.com/AlexHedley/adventofcode2015",
       "aoc_site": "https://adventofcode.com/2015",
+      "image": "images/2015.svg",
       "stars": {
         "silver": 2,
         "gold": 4
