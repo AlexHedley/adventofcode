@@ -10,3 +10,5 @@
 
 - [Unofficial Advent of Code Personal Stats Comparison](https://codepen.io/jeroenheijmans/pen/GPomRd) Jeroen Heijmans
 - [Chart.js](https://www.chartjs.org)
+
+- Images https://github.com/encse/adventofcode/

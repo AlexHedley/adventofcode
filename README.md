@@ -24,6 +24,10 @@
 
 - [local](http://localhost:8000/)
 
+## Docs
+
+- [Docs](docs/README.md)
+
 ## License
 
 - [MIT License](LICENSE)
