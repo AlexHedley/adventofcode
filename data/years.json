@@ -9,10 +9,10 @@
       "site": "https://AlexHedley.github.io/adventofcode2023",
       "code": "https://github.com/AlexHedley/adventofcode2023",
       "aoc_site": "https://adventofcode.com/2023",
-      "image": "",
+      "image": "images/2023.svg",
       "stars": {
-        "silver": 0,
-        "gold": 2
+        "silver": 2,
+        "gold": 6
       },
       "supporter": true
     },
