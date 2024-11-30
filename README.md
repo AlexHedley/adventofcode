@@ -4,6 +4,7 @@
 
 | Year                                   | Code                                                   | Supporter | Silver | ⭐  | Total |
 | -------------------------------------- | ------------------------------------------------------ | --------- | ------ | --- | ----- |
+| [2024](https://adventofcode.com/2024/) | [repo](https://github.com/AlexHedley/adventofcode2024) | ✔         | 0      | 0   | 0     |
 | [2023](https://adventofcode.com/2023/) | [repo](https://github.com/AlexHedley/adventofcode2023) | ✔         | 2      | 6   | 14    |
 | [2022](https://adventofcode.com/2022/) | [repo](https://github.com/AlexHedley/adventofcode2022) | ✔         | 1      | 7   | 15    |
 | [2021](https://adventofcode.com/2021/) | [repo](https://github.com/AlexHedley/adventofcode2021) | ✔         | 7      | 4   | 15    |

@@ -30,6 +30,15 @@ h1 {
     /* -webkit-text-stroke-color: black; */
 }
 
+.card-header {
+    font-weight: bold;
+    background-color: white;
+}
+
+.card-footer {
+    background-color: white;
+}
+
 .footer {
     background-color: red;
 }
