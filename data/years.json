@@ -1,163 +1,163 @@
 {
-  "years": [
-      {
-          "id": 10,
-          "name": "2024",
-          "startDate": "2024-12-01",
-          "endDate": "2024-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2024",
-          "code": "https://github.com/AlexHedley/adventofcode2024",
-          "aoc_site": "https://adventofcode.com/2024",
-          "stars": {
-              "silver": 0,
-              "gold": 0
-          },
-          "supporter": true
-      },
-      {
-          "id": 9,
-          "name": "2023",
-          "startDate": "2023-12-01",
-          "endDate": "2023-12-25",
-          "description": "❄️ Snowflake",
-          "site": "https://AlexHedley.github.io/adventofcode2023",
-          "code": "https://github.com/AlexHedley/adventofcode2023",
-          "aoc_site": "https://adventofcode.com/2023",
-          "image": "images/2023.svg",
-          "stars": {
-              "silver": 2,
-              "gold": 6
-          },
-          "supporter": true
-      },
-      {
-          "id": 8,
-          "name": "2022",
-          "startDate": "2022-12-01",
-          "endDate": "2022-12-25",
-          "description": "Elves' expedition",
-          "site": "https://AlexHedley.github.io/adventofcode2022",
-          "code": "https://github.com/AlexHedley/adventofcode2022",
-          "aoc_site": "https://adventofcode.com/2022",
-          "image": "images/2022.svg",
-          "stars": {
-              "silver": 1,
-              "gold": 7
-          },
-          "supporter": true
-      },
-      {
-          "id": 7,
-          "name": "2021",
-          "startDate": "2021-12-01",
-          "endDate": "2021-12-25",
-          "description": "Submarine",
-          "site": "https://AlexHedley.github.io/adventofcode2021",
-          "code": "https://github.com/AlexHedley/adventofcode2021",
-          "aoc_site": "https://adventofcode.com/2021",
-          "image": "images/2021.svg",
-          "stars": {
-              "silver": 7,
-              "gold": 4
-          },
-          "supporter": true
-      },
-      {
-          "id": 6,
-          "name": "2020",
-          "startDate": "2020-12-01",
-          "endDate": "2020-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2020",
-          "code": "https://github.com/AlexHedley/adventofcode2020",
-          "aoc_site": "https://adventofcode.com/2020",
-          "image": "images/2020.svg",
-          "stars": {
-              "silver": 0,
-              "gold": 0
-          },
-          "supporter": false
-      },
-      {
-          "id": 5,
-          "name": "2019",
-          "startDate": "2019-12-01",
-          "endDate": "2019-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2019",
-          "code": "https://github.com/AlexHedley/adventofcode2019",
-          "aoc_site": "https://adventofcode.com/2019",
-          "image": "images/2019.svg",
-          "stars": {
-              "silver": 0,
-              "gold": 0
-          },
-          "supporter": false
-      },
-      {
-          "id": 4,
-          "name": "2018",
-          "startDate": "2018-12-01",
-          "endDate": "2018-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2018",
-          "code": "https://github.com/AlexHedley/adventofcode2018",
-          "aoc_site": "https://adventofcode.com/2018",
-          "image": "images/2018.svg",
-          "stars": {
-              "silver": 0,
-              "gold": 0
-          },
-          "supporter": false
-      },
-      {
-          "id": 3,
-          "name": "2017",
-          "startDate": "2017-12-01",
-          "endDate": "2017-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2017",
-          "code": "https://github.com/AlexHedley/adventofcode2017",
-          "aoc_site": "https://adventofcode.com/2017",
-          "image": "images/2017.svg",
-          "stars": {
-              "silver": 0,
-              "gold": 0
-          },
-          "supporter": false
-      },
-      {
-          "id": 2,
-          "name": "2016",
-          "startDate": "2016-12-01",
-          "endDate": "2016-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2016",
-          "code": "https://github.com/AlexHedley/adventofcode2016",
-          "aoc_site": "https://adventofcode.com/2016",
-          "image": "images/2016.svg",
-          "stars": {
-              "silver": 0,
-              "gold": 0
-          },
-          "supporter": false
-      },
-      {
-          "id": 1,
-          "name": "2015",
-          "startDate": "2015-12-01",
-          "endDate": "2015-12-25",
-          "description": "",
-          "site": "https://AlexHedley.github.io/adventofcode2015",
-          "code": "https://github.com/AlexHedley/adventofcode2015",
-          "aoc_site": "https://adventofcode.com/2015",
-          "image": "images/2015.svg",
-          "stars": {
-              "silver": 2,
-              "gold": 4
-          },
-          "supporter": true
-      }
-  ]
+    "years": [
+        {
+            "id": 10,
+            "name": "2024",
+            "startDate": "2024-12-01",
+            "endDate": "2024-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2024",
+            "code": "https://github.com/AlexHedley/adventofcode2024",
+            "aoc_site": "https://adventofcode.com/2024",
+            "stars": {
+                "silver": 1,
+                "gold": 3
+            },
+            "supporter": true
+        },
+        {
+            "id": 9,
+            "name": "2023",
+            "startDate": "2023-12-01",
+            "endDate": "2023-12-25",
+            "description": "❄️ Snowflake",
+            "site": "https://AlexHedley.github.io/adventofcode2023",
+            "code": "https://github.com/AlexHedley/adventofcode2023",
+            "aoc_site": "https://adventofcode.com/2023",
+            "image": "images/2023.svg",
+            "stars": {
+                "silver": 2,
+                "gold": 6
+            },
+            "supporter": true
+        },
+        {
+            "id": 8,
+            "name": "2022",
+            "startDate": "2022-12-01",
+            "endDate": "2022-12-25",
+            "description": "Elves' expedition",
+            "site": "https://AlexHedley.github.io/adventofcode2022",
+            "code": "https://github.com/AlexHedley/adventofcode2022",
+            "aoc_site": "https://adventofcode.com/2022",
+            "image": "images/2022.svg",
+            "stars": {
+                "silver": 1,
+                "gold": 7
+            },
+            "supporter": true
+        },
+        {
+            "id": 7,
+            "name": "2021",
+            "startDate": "2021-12-01",
+            "endDate": "2021-12-25",
+            "description": "Submarine",
+            "site": "https://AlexHedley.github.io/adventofcode2021",
+            "code": "https://github.com/AlexHedley/adventofcode2021",
+            "aoc_site": "https://adventofcode.com/2021",
+            "image": "images/2021.svg",
+            "stars": {
+                "silver": 7,
+                "gold": 4
+            },
+            "supporter": true
+        },
+        {
+            "id": 6,
+            "name": "2020",
+            "startDate": "2020-12-01",
+            "endDate": "2020-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2020",
+            "code": "https://github.com/AlexHedley/adventofcode2020",
+            "aoc_site": "https://adventofcode.com/2020",
+            "image": "images/2020.svg",
+            "stars": {
+                "silver": 0,
+                "gold": 0
+            },
+            "supporter": false
+        },
+        {
+            "id": 5,
+            "name": "2019",
+            "startDate": "2019-12-01",
+            "endDate": "2019-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2019",
+            "code": "https://github.com/AlexHedley/adventofcode2019",
+            "aoc_site": "https://adventofcode.com/2019",
+            "image": "images/2019.svg",
+            "stars": {
+                "silver": 0,
+                "gold": 0
+            },
+            "supporter": false
+        },
+        {
+            "id": 4,
+            "name": "2018",
+            "startDate": "2018-12-01",
+            "endDate": "2018-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2018",
+            "code": "https://github.com/AlexHedley/adventofcode2018",
+            "aoc_site": "https://adventofcode.com/2018",
+            "image": "images/2018.svg",
+            "stars": {
+                "silver": 0,
+                "gold": 0
+            },
+            "supporter": false
+        },
+        {
+            "id": 3,
+            "name": "2017",
+            "startDate": "2017-12-01",
+            "endDate": "2017-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2017",
+            "code": "https://github.com/AlexHedley/adventofcode2017",
+            "aoc_site": "https://adventofcode.com/2017",
+            "image": "images/2017.svg",
+            "stars": {
+                "silver": 0,
+                "gold": 0
+            },
+            "supporter": false
+        },
+        {
+            "id": 2,
+            "name": "2016",
+            "startDate": "2016-12-01",
+            "endDate": "2016-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2016",
+            "code": "https://github.com/AlexHedley/adventofcode2016",
+            "aoc_site": "https://adventofcode.com/2016",
+            "image": "images/2016.svg",
+            "stars": {
+                "silver": 0,
+                "gold": 0
+            },
+            "supporter": false
+        },
+        {
+            "id": 1,
+            "name": "2015",
+            "startDate": "2015-12-01",
+            "endDate": "2015-12-25",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2015",
+            "code": "https://github.com/AlexHedley/adventofcode2015",
+            "aoc_site": "https://adventofcode.com/2015",
+            "image": "images/2015.svg",
+            "stars": {
+                "silver": 2,
+                "gold": 4
+            },
+            "supporter": true
+        }
+    ]
 }
