@@ -4,6 +4,7 @@
 
 | Year                                   | Code                                                   | Supporter | Silver | ⭐  | Total |
 | -------------------------------------- | ------------------------------------------------------ | --------- | ------ | --- | ----- |
+| [2025](https://adventofcode.com/2025/) | [repo](https://github.com/AlexHedley/adventofcode2025) |           | 0      | 0   | 0     |
 | [2024](https://adventofcode.com/2024/) | [repo](https://github.com/AlexHedley/adventofcode2024) | ✔         | 1      | 3   | 7     |
 | [2023](https://adventofcode.com/2023/) | [repo](https://github.com/AlexHedley/adventofcode2023) | ✔         | 2      | 6   | 14    |
 | [2022](https://adventofcode.com/2022/) | [repo](https://github.com/AlexHedley/adventofcode2022) | ✔         | 1      | 7   | 15    |
@@ -22,6 +23,8 @@
 ## Run
 
 `py -m http.server`
+`py -m http.server -b 127.0.0.1`  
+`python -m http.server -b 127.0.0.1`  
 
 - [local](http://localhost:8000/)
 

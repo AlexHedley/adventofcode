@@ -1,6 +1,22 @@
 {
     "years": [
         {
+            "id": 11,
+            "name": "2025",
+            "startDate": "2025-12-01",
+            "endDate": "2025-12-12",
+            "description": "",
+            "site": "https://AlexHedley.github.io/adventofcode2025",
+            "code": "https://github.com/AlexHedley/adventofcode2025",
+            "aoc_site": "https://adventofcode.com/2025",
+            "image": "images/2025.svg",
+            "stars": {
+                "silver": 0,
+                "gold": 0
+            },
+            "supporter": false
+        },
+        {
             "id": 10,
             "name": "2024",
             "startDate": "2024-12-01",
