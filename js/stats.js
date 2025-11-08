@@ -5,6 +5,13 @@
 // - etc.
 // Prefix with each year
 const data = `
+2024
+Day       Time   Rank  Score       Time   Rank  Score
+  7   17:09:49  46447      0          -      -      -
+  3   03:45:10  35470      0   04:11:01  29630      0
+  2   04:03:42  34878      0   05:50:22  30718      0
+  1   04:54:21  27125      0   05:05:41  25719      0
+
 2023
 Day       Time   Rank  Score       Time   Rank  Score
  15   06:42:22  20695      0          -      -      -
